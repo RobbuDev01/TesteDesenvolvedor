@@ -8,7 +8,7 @@ namespace BuscaCEP.data
     public class Cep : IDisposable
     {
         public string sMensagem = string.Empty;
-        SqlConnection strConn = new SqlConnection(@"Data Source=robbusqlserver.database.windows.net,1433;Initial Catalog=RobbuProjects;Persist Security Info=True;User ID=ROBBU;Password=!q2w3e4r");
+        SqlConnection strConn = new SqlConnection(@"Data Source=testedb.database.windows.net,1433;Initial Catalog=BDTeste;Persist Security Info=True;User ID=UserTest;Password=!q2w3e4r");
 
         public DataTable Listar(model.Cep objCEP)
         {
